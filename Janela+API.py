@@ -1,5 +1,3 @@
-import tkinter
-
 import requests
 from tkinter import *
 
