@@ -1,3 +1,5 @@
+#Validação Automoto Finito Deterministico P1 (LFA 2023)
+
 sequencia = input("Infome uma sequencia: ")
 tamanho_sequencia = len(sequencia)
 aceita = 0
