@@ -4,6 +4,15 @@ aceita = 0
 i=0
 
 while(i<tamanho_sequencia):
+    if sequencia[i] == "1" or sequencia[i] == "0":
+        continue
+    else:
+        exit(-1)
+    i += 1
+    
+i=0
+
+while(i<tamanho_sequencia):
     if sequencia[i] == "1":
         aceita = 1
     else:
