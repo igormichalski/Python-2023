@@ -100,8 +100,7 @@ for state in enfa_states:
     if epsilon_transition != '-':
         enfa_transitions[state][''] = epsilon_transition.split(',')
 
-dfa_states, dfa_alphabet, dfa_transitions, dfa_initial, dfa_final = enfa_to_dfa(enfa_states, alphabet, enfa_transitions,
-                                                                                enfa_initial, enfa_final)
+dfa_states, dfa_alphabet, dfa_transitions, dfa_initial, dfa_final = enfa_to_dfa(enfa_states, alphabet, enfa_transitions, enfa_initial, enfa_final)
 
 print("\nDFA Resultante:\n")
 print_dfa(dfa_states, dfa_alphabet, dfa_transitions, dfa_initial, dfa_final)
