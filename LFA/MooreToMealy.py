@@ -33,4 +33,9 @@ def moore_to_mealy():
         print(f"{transition[0]},{transition[1]},{transition[2]}")  # Corrigi a formatação aqui
     print(f"Estado Inicial = {mealy_initial_state}")
 
-moore_to_mealy()
+#loop para aceitar mais casosa
+while True:
+    moore_to_mealy()
+    x = int(input("Digite 0 para outra conversão!"))
+    if(x):
+        break
