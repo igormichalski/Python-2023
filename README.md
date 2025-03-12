@@ -1,2 +1,2 @@
-Meus codigos que fiz durante o ano.
-# Python-2023
+Meus codigos que fiz durante os anos.
+# Python
